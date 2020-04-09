@@ -6,7 +6,7 @@ Interface configuration:
 
 - The Server URL should begin with `https://` or `http://`
   - Example: `https://tableauserver.mysite.co.uk/`
-- For Tableau Online, this should be set to `https://sso.online.tableau.com/`
+- For Tableau Online, the server address in the URI must contain the pod name, such as 10az, 10ay, or us-east-1. For example, the URI to sign in to a site in the eu-west-1a pod would be: `https://eu-west-1a.online.tableau.com/`
 
 #### Username
 
