@@ -21,6 +21,8 @@ Interface configuration:
 - The name of the site containing the datasource you want to read. This should be taken from the URL, rather than the dropdown menu on the Tableau Server.
   - Example: `https://tableauserver.mysite.co.uk/#/site/**mysitename**/`
 - Leave this box blank for the default folder
+- For Tableau Online, this should be the name of the site
+  - Example: `https://eu-west-1a.online.tableau.com/#/site/**mysitename**/workbooks`
 
 #### Datasource
 
