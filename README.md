@@ -27,3 +27,7 @@ Interface configuration:
 #### Datasource
 
 - The name of the datasource you want to read
+
+## Important
+
+If your Tableau Server environment uses SAML/SSO authentication, you can perform the workaround described in this video by Jonothan MacDonald to enable use of this tool: https://youtu.be/woNVLSPxWzI
