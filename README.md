@@ -4,6 +4,10 @@ This tool will read a published Tableau hyper extract from Tableau Server/Tablea
 
 The tool is a packaged Alteryx tool installer (.yxi) file. Double clicking this file will open Alteryx Designer and prompt you to install the tool. Once installed, the tool will appear in the "Connectors" tool pane.
 
+## Important
+
+If your Tableau Server environment uses SAML/SSO authentication, you can perform the workaround described in this video by Jonothan MacDonald to enable use of this tool: https://youtu.be/woNVLSPxWzI
+
 ## Interface configuration:
 
 #### Server URL
@@ -31,7 +35,3 @@ The tool is a packaged Alteryx tool installer (.yxi) file. Double clicking this 
 #### Datasource
 
 - The name of the datasource you want to read
-
-## Important
-
-If your Tableau Server environment uses SAML/SSO authentication, you can perform the workaround described in this video by Jonothan MacDonald to enable use of this tool: https://youtu.be/woNVLSPxWzI
