@@ -8,6 +8,8 @@ The tool is a packaged Alteryx tool installer (.yxi) file. Double clicking this 
 
 If your Tableau Server environment uses SAML/SSO authentication, you can perform the workaround described in this video by Jonathan MacDonald to enable the use of this tool: https://youtu.be/woNVLSPxWzI
 
+The "\_No 7zip" version is necessary if you are behind a firewall that prevents you from downloading .exe or .dll files from the Internet. Source these files separately, and put them into the "\Supporting Macros" folder in the tool directory.
+
 ## Interface configuration:
 
 #### Server URL
