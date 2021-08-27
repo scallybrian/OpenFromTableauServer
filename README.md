@@ -1,6 +1,6 @@
 ## Open From Tableau Server
 
-This tool will read a published Tableau hyper extract from Tableau Server/Tableau Online into Alteryx Designer. The tool requires Alteryx Designer 2019.4 or later, and Tableau Server 2018.1 or later.
+This tool will read a published Tableau hyper extract from Tableau Server/Tableau Online into Alteryx Designer. The tool requires Alteryx Designer 2020.2 or later, and Tableau Server 2018.1 or later.
 
 The tool is a packaged Alteryx tool installer (.yxi) file. Double clicking this file will open Alteryx Designer and prompt you to install the tool. Once installed, the tool will appear in the "Connectors" tool pane.
 
