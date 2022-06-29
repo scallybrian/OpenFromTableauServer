@@ -4,6 +4,9 @@ This tool will read a published Tableau hyper extract from Tableau Server/Tablea
 
 The tool is a packaged Alteryx tool installer (.yxi) file. Double clicking this file will open Alteryx Designer and prompt you to install the tool. Once installed, the tool will appear in the "Connectors" tool pane.
 
+# Important
+This tool makes use of the Python library *tableauhyperio*. In order for the tool to run correctly, it must first be run as Administrator so that the library can be installed. It can be run by non-Admin at any time after the initial run.
+
 # Interface configuration:
 
 #### API Version
